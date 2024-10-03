@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { EachElement } from "./Components/EachElement/EachElement";
+import { Header } from "./Components/Header/Header";
 import data from "./data.json";
 
 export const App = () => {
@@ -7,6 +8,7 @@ export const App = () => {
 
   return (
     <div>
+      <Header />
       {Object.entries(data).map(([key, value]) => (
         <EachElement
           key={key}

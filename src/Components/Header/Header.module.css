@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 4px 4px 4px 24px;
+    gap: 4px;
+    width: 80vw;
+}
+
+.name {
+    width: 28%;
+    background-color: rgb(211, 211, 211,0.7);
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.currentDay {
+    background-color: rgb(173, 216, 230,0.7);
+min-width: 28%;
+display: flex;
+flex-grow: 1;
+align-items: center;
+justify-content: center;
+}
+
+.yesterday {
+    background-color: rgb(211, 211, 211,0.7);
+width: 10%;
+display: flex;
+flex-grow: 1;
+align-items: center;
+justify-content: space-around;
+}
+
+.thisDayWeek {
+    background-color: rgb(211, 211, 211,0.7);
+    flex-grow: 1;
+    max-width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
